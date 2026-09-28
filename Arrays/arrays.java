@@ -1,6 +1,7 @@
 package Arrays;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class arrays {
 
@@ -69,6 +70,8 @@ public class arrays {
         Size----	list.size()	
         Empty?----	list.isEmpty()
         */
+       //simple sort array list
+       Collections.sort(studentList);
         System.out.println("Iterative print:");
         for (int i = 0; i < studentList.size(); i++) {
             System.out.println(studentList.get(i));
